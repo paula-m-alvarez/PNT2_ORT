@@ -1,0 +1,19 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\pauma\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.3
+2 info using node@v20.5.1
+3 silly config load:file:C:\Users\pauma\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\pauma\Desktop\ORT\4° Cuatrimestre\PNT2\Ejercicios\DOM\.npmrc
+5 silly config load:file:C:\Users\pauma\.npmrc
+6 silly config load:file:C:\Users\pauma\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm exec webpack
+8 verbose argv "exec" "--" "webpack"
+9 verbose logfile logs-max:10 dir:C:\Users\pauma\Desktop\ORT\4° Cuatrimestre\PNT2\Ejercicios\.npm\_logs\2024-09-02T22_40_12_059Z-
+10 verbose logfile C:\Users\pauma\Desktop\ORT\4° Cuatrimestre\PNT2\Ejercicios\.npm\_logs\2024-09-02T22_40_12_059Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd C:\Users\pauma\Desktop\ORT\4° Cuatrimestre\PNT2\Ejercicios\DOM
+14 verbose os Windows_NT 10.0.22631
+15 verbose node v20.5.1
+16 verbose npm  v10.8.3
+17 verbose exit 0
+18 info ok
