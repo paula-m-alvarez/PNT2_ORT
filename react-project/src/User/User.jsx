@@ -11,7 +11,7 @@ function User(props){
                     <div className='user-item__info'>
                         <h2>{ props.UserName }</h2>
                         <h2>{ props.Title }</h2>
-                        <h3>{ props.city }</h3>
+                        <h3>{ props.City }</h3>
                     </div>
                 </a>
             </div>

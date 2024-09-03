@@ -1,12 +1,11 @@
 import './App.css';
-import User from './User/User';
+import UserList from './User/UserList';
 
 function App() {
   return (
     <div className="App">
           <h3> Listado de Usuarios </h3>
-          <User Nombre = "Adele Vance"/>
-          <User Nombre = "Juan Perez"/>
+          <UserList />
     </div>
   );
 }
