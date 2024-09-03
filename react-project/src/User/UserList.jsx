@@ -1,6 +1,6 @@
 import "./User.css";
 import User from "./User";
-import users from "./mocUser.js";
+import users from "../mocUser.js";
 
 const UserList = (props) =>{
     return(
