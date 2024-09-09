@@ -8,7 +8,8 @@ const UserList = (props) =>{
             { users.map(usuario =>(
                 <User 
                 UserName={usuario["Display name"]} 
-                Picture={`/img/${usuario["Display name"]}.jpg`}
+                //Picture={`/img/${usuario["Display name"]}.jpg`}
+                Picture={usuario.Picture}
                 Title={usuario.Title}
                 City={usuario.City}
                 />
