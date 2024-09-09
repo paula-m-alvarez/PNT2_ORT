@@ -1,10 +1,17 @@
 import './User.css';
+import { useState } from "react";
 
 function User(props){
+    const [contador, setContador] = useState(0);
+
+    const Hanlder_ClickUser = () => {
+       setContador(contador + 1);
+    };
+
     return(
-        <li className='user-item'>
+        <li className='user-item' onClick={Hanlder_ClickUser}>
             <div className='card user-item__content'>
-                <a href='/'>
+                <a href='#'>
                     <div className='user-item__image avatar'>
                         <img src={props.Picture} alt={props.Username}/>
                     </div>
@@ -12,6 +19,7 @@ function User(props){
                         <h2>{ props.UserName }</h2>
                         <h2>{ props.Title }</h2>
                         <h3>{ props.City }</h3>
+                        <h3>{ contador }</h3>
                     </div>
                 </a>
             </div>
