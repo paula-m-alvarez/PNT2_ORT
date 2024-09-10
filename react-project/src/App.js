@@ -1,7 +1,7 @@
 import './App.css';
 import UserPage from './User/UserPage.jsx';
-import UserDetails from './User/UserDetails.jsx';
-import { BrowserRouter, Router } from "react-router-dom";
+import UserDetails from './User/UserPage.jsx';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -10,12 +10,14 @@ function App() {
     //       <UserPage />
     // </div>
     <BrowserRouter>
-      <Router>
-        <Router Path="/" element = {<h1>Home</h1>} />
-        <Router Path="/users" element = { <UserPage />} />
-        <Router Path="/users/:id" element = { <UserDetails /> } />
-        <Router Path="/login" element = {<h1> Login </h1>} />
-      </Router>
+       <div className="App">
+          <Routes>
+            <Route path="/" element = {<h1>Home</h1>} />
+            <Route path="/users" element = { <UserPage />} />
+            <Route path="/users/:id" element = { <UserDetails /> } />
+            <Route path="/login" element = {<h1> Login </h1>} />
+          </Routes>
+        </div>
     </BrowserRouter>
   );
 }
