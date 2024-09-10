@@ -1,5 +1,6 @@
 import './App.css';
 import UserPage from './User/UserPage.jsx';
+import UserDetails from './User/UserDetails.jsx';
 import { BrowserRouter, Router } from "react-router-dom";
 
 function App() {
