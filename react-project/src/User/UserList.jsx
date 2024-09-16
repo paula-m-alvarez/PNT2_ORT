@@ -7,7 +7,7 @@ const UserList = (props) =>{
         <ul className="users-list">
             { users.map(usuario =>(
                 <User
-                Id = {usuario["Object Id"]}
+                Id={usuario["Object Id"]}
                 UserName={usuario["Display name"]} 
                 //Picture={`/img/${usuario["Display name"]}.jpg`}
                 Picture={usuario.Picture}
